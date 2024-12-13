@@ -1,0 +1,494 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+   
+   
+   /* background-color:black; */
+}
+.main-top{
+    background-color: rgb(8, 8, 8);
+    height: 12%;
+    width: 100%;
+    /* box-shadow: 10px 10px 10px;
+    */
+}
+.main-top a{
+    position: relative;
+    left: 60%;
+    top: 30%;
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    /* box-shadow: black; */
+}
+
+.main-top a:hover{
+    color: orangered;
+}
+.main-top nav{
+    /* text-transform: uppercase; */
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+    /* background-color: rgb(207, 71, 71); */
+}
+@keyframes colorAnimate{
+    0%{
+        color: rgb(54, 238, 248);
+    }
+    50%{
+        color: orangered;
+    }
+    100%{
+        color: white;
+    }
+}
+
+.main-top nav:hover{
+    color: orangered;
+}
+.main-bottom{
+    height:88% ;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+}
+.bottom-right {
+    width: 60%;
+    height: 100%;
+   /* background-color: rgb(1, 1, 1); */
+}
+.right-img{
+    height: 450px;
+    width: 400px;
+ background-image:url(photos/mpic.jpg);
+ background-size: cover;
+ background-position: top;
+ margin-left: 30%;
+ position: relative;
+ top: 6%;
+ /* left: 15px; */
+ border-radius: 50%;
+}
+.bottom-left {
+    width: 50%;
+    height: 100%;
+   background-color: white;
+}
+.bottom-left h3{
+    font-weight: 600;
+    font-size: 25px;
+    /* padding-top: 80px; */
+    margin: 100px 0px 0px 50px;
+}
+
+.bottom-left h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0px 0px 50px 50px;
+   
+}
+
+.bottom-left h4{
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+}
+.bottom-left i{
+   
+    /* background-color: orangered; */
+    font-size: 40px;
+    box-shadow: 2px 4px 8px black;
+    border-radius: 40%;
+    position: relative;
+    /* top: 5%; */
+    left: 5%;
+    margin: 2%;
+   
+
+}
+#btn-1{
+   border-radius: 10px;
+   position: relative;
+    top: 80px;
+    right: 230px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 25px;
+    padding-right: 25px;
+ background-color: rgb(245, 48, 48);
+ color: white;
+ font-size: 20px;
+ border: none;
+  box-shadow: 5px 5px 5px black;
+  
+}
+#btn-2{
+    border-radius: 10px;
+    position: relative;
+     top: 80px;
+     right: 210px;
+     padding-top: 10px; 
+     padding-bottom: 10px; 
+     padding-left: 25px;
+     padding-right: 25px;
+     border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+   box-shadow: 5px 5px 5px black;
+   
+ }
+#btn-1:hover{
+    background-color: orangered;
+
+
+}
+#btn-2:hover{
+    background-color: orangered;
+
+
+}
+
+
+
+/* 2nd page.... */
+
+
+.main2{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.top{
+    height: 10%;
+    width: 100%;
+   background-color: rgb(159, 158, 158);
+    box-shadow: 4px 8px 16px black;
+}
+
+.top h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    position:relative ;
+    left: 45%;
+}
+
+.bottom{
+    height: 40%;
+    width: 100%;
+    border: 3px black solid;
+}
+.skill-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.skill1{
+    height: 90%;
+    width: 23%;
+    border: 5px solid black;
+}
+.img-skill1{
+height: 90px;
+width: 70px;
+    background-image:url(photos/html.jpg) ;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 4px 8px black;
+    position: relative;
+    top: 20%;
+    left: 35%;
+   
+ 
+}
+.skill1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: 22%;
+    left: 30%;
+
+}
+.skill2{
+    height: 90%;
+    width: 23%;
+    border: 5px solid black;
+}
+.img-skill2{
+  height: 90px;
+  width: 70px;
+  background-image: url(photos/css.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 4px 8px black;
+  position: relative;
+  top: 20%;
+  left: 35%;
+ 
+}
+.skill2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: 22%;
+    left: 35%;
+
+}
+.skill3{
+    height: 90%;
+    width: 23%;
+    border: 5px solid black;
+}
+.img-skill3{
+    height: 90px;
+    width: 70px;
+    background-image: url(photos/js.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 4px 8px black;
+    position: relative;
+    top: 20%;
+    left: 35%;
+   
+  }
+  .skill3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: 22%;
+    left: 15%;
+
+}
+.skill4{
+    height: 90%;
+    width: 23%;
+    border: 5px solid black;
+}
+.img-skill4{
+    height: 90px;
+    width: 70px;
+    background-image:url(photos/js.png) ;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 4px 8px black;
+    position: relative;
+    top: 20%;
+    left: 35%;
+   
+  }
+  .skill4 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: 22%;
+    left: 30%;
+
+}
+.main2-top2{
+    height: 50%;
+    width: 100%;
+   
+}
+.top2{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(149, 146, 146);
+    box-shadow: 10px 10px 10px black;
+}
+   
+
+   
+.top2 h1{
+    height: 20%;
+    width: 100%;
+    color: black;
+    position: relative;
+    left: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+.bottom2{
+    height:80% ;
+    width: 100%;
+   
+}
+.project{
+    height:100% ;
+    width: 100%;
+    border: 3px black solid;
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+.project1{
+    height: 85%;
+    width: 30%;
+   border: 5px black solid;
+   margin-top: 15px;
+}
+.project1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.project1  h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.project2{
+    height: 85%;
+    width: 30%;
+    border: 5px black solid;
+    margin-top: 15px;
+}
+.project2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.project2  h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.project3{
+    height: 85%;
+    width: 30%;
+    border: 5px black solid;
+    margin-top: 15px;
+}
+.project3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.project3  h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+
+/* .......page3...... */
+
+.main3{
+    height: 100%;
+    width: 100%;
+   
+}
+.main3-top{
+    height: 50%;
+    width: 100%;
+   box-shadow: 4px 8px 16px rgb(12, 12, 12);
+ }
+ .main3-top-1{
+ height: 25%;
+ width: 100%;
+ background-color: rgb(147, 144, 144);
+ box-shadow: 8px 16px 32px rgb(12, 12, 12);
+ text-align: center;
+ border: 5px solid black;
+ }
+ .main3-top-1 h1{
+ color: rgb(0, 0, 0);
+ font-size: 60px;
+ }
+ .main3-top-2{
+    height: 70%;
+    width: 100%;
+    border: 5px solid rgb(1, 1, 1);
+    margin-top: 10px;
+    color: rgb(5, 5, 5);
+ }
+ .main3-top-2 h3{
+ font-size: 24px;
+ font-weight: 900;
+ position: relative;
+ left: 50px;
+ top: 65px;
+ }
+ .main3-top-2 h4{
+    font-size: 24px;
+    font-weight: 900;
+ position: relative;
+ left: 50px;
+ top: 80px;
+    }
+    .main3-top-2 h2{
+       font-size: 22px;
+       font-weight: 900;
+    position: relative;
+    left: 50px;
+    top: 70px;
+       }
+       .main3-top-2 h2 b{
+          opacity: 0.7;
+          font-size: 20px;
+       }
+       .main3-top-2 h3 b{
+          opacity: 0.7;
+          font-size: 20px;
+       }
+       .main3-top-2 h4 b{
+          opacity: 0.7;
+          font-size: 20px;
+       }
+ .main3-bottom{
+    height: 50%;
+    width: 100%;
+   box-shadow: 4px 8px 16px rgb(12, 12, 12);
+ }
+ .main3-bottom-1{
+    height: 90%;
+    width: 100%;
+    border: 5px solid rgb(6, 6, 6);
+    margin-top: 15px;
+    color: rgb(3, 3, 3);
+ }
+ .main3-bottom-1 h1{
+    font-size: 45px;
+    font-weight: 900;
+  text-decoration: underline;
+  position: relative;
+  left: 30px;
+  top: 20px;
+ }
+ .main3-bottom-1 a{
+    color: blue;
+    position: relative;
+    top: 40px;
+    left: 45px;
+    line-height: 30px;
+ }
